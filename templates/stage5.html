@@ -1,0 +1,39 @@
+{% extends "webpage_html.html" %}
+{% block content %}
+
+<div class="blurb">
+	<img class="learning_quote" src="images/education-image.jpg" alt="A quote on learning">
+	<div class="text_container">
+		<h1 class="large_letters">So...</h1>
+		<p class="paragraph">
+			I've been thinking alot about how to layout this page and what to include on it.  Stage 5 was rather a blur.  There was so many new thoughts introduced...some very deep and obscure.  Going into this I knew exactly where I wanted to go afterwards. And I still do, however I can honestly say that I wouldn't mind delving more into the more into Python and see what happens.  It was pretty awesome watching the series of videos where Peter Norvig took and broke down the code needed for the word game.  I would definitely like to further that knowledge after I finish my Web Development classes.  Not that any of that really matters, I just realize that I've learned not only some cool new skills, but also some things about myself and where I want to go.  My notes on JavaScript are below, the beginning of my yellow brick road....
+		</p>
+	</div>
+</div>
+
+<div class="brick-road">
+	<div class="js_heading">
+		<h1>Intro To JavaScript</h1>
+	</div>
+	<div class="js_notes">
+		<h3>Variables &amp; Simple Data</h3>
+		<p>
+			In JavaScript we declare a variable using the keyword "var".  This is used for all data types.  A single "=" then assigns the variable some value.  To print something we can use the "console.log" statement.
+		</p>
+
+		<p>
+			A <em>method</em> in JavaScript are actions that can be performed on objects.  Methods are functions stored as object properties.  The first method we are introduced to is "string.replace()".  This method finds a pattern in a string and replaces some or all matches of it.  To read the documentation on it, click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace">here</a>.  We can also use JavaScript methods to replace place holders in HTML with real data, then we can append HTML strings.  In the videos they used the ".append" and ".slice" method to do so, additional documentation <a href="http://api.jquery.com/append/">on append</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice">on slice</a>.
+		</p>
+
+		<p>
+			In JavaScript we work alot with true or false.However, if something is neither true or false it's <em>"undefined"</em>.  We also will get to know how to use <em>arrays</em>. They are similar to lists in Python.  An array is a special kind of object.
+		</p>
+
+		<p>
+			So then, what are <em>objects</em>?  They hold information and do things.  They can be declared in a few different ways.  Unlike Python, there are no classes in JavaScript when working with objects.  <em>Object literal notation</em> uses curly braces with key value pairs inside. <em>Dot notation</em> allows us to declare and object and then define its properties outside of the curly braces.  There is no need to use var because we are adding properties to an object, not creating new variables. <em>Bracket notation</em> is similar to dot notation in that we can declare and object and then define its properties outside of the braces.
+		</p>
+	</div>
+</div>
+
+
+{% endblock %}
